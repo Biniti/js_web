@@ -1,0 +1,78 @@
+
+
+:root{
+    --color-active:black;
+    --nav-color: green;
+}
+
+
+.main{
+    padding:30px;
+    margin-top:150px;
+    padding-bottom: 5px;
+    
+}
+
+
+header  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e3f2fd;
+
+}
+
+header nav a{
+    margin-left: 140px;
+    padding: 10px;
+    text-decoration:none;
+    transition: 0.4s all;
+}
+
+header nav .active{
+    color: black;
+}
+
+header nav a:hover{
+    color: green;
+    
+}
+
+
+.header{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.login input{
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.login .button{
+    text-align: center;
+    margin-left: 520px;
+}
+
+.registrar{
+    margin-left: 450px;
+    text-decoration: none;
+}
+
+
+.rodape{
+    margin-top: 145px;
+    margin-bottom:0px;
+    background-color: #e3f2fd;
+}
+
+.brand{
+    padding-left:5px;
+    padding-top:5px;
+    color:black
+}
+
+#logo{
+    color: red;
+}

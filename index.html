@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <title>Pagina de login</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      
+      <header class = "container-sm header">
+        
+        <nav class = "navbar navbar-expand-lg navbar-light bg-light" >
+          <div class = "nav nav-pills">
+          <a class = "nav-link active" href = "index.html"> Login </a>
+           
+            <a class = "link-item" href = "consulta.html" > Consultar usúarios </a>
+            
+            <a class = "link-item" href = "cadastro.html" > Cadastrar usúarios </a>
+
+            <a class = "link-item" href = "cadastro.html" > Registrar </a>
+            
+          </div>
+        </nav>
+
+      </header>
+
+      <main class = "container-sm main">
+        <form  method = "POST" class = "login">
+            <input  class = "form-control"  type="text" name="username" placeholder="Nome de usuário"/>
+
+            <input class = "form-control"   type="password" name="password" placeholder="Senha"/>
+            
+            <input onclick = "return login()" class = "btn btn-primary button" type="submit" value="Entrar" />
+
+        </form>
+
+        <a class = "registrar" href="cadastro.html">Clique aqui para se registrar</a>
+
+      </main>
+    </div>
+
+      <footer class = "rodape">
+
+          <nav class="navbar navbar-light">
+              <h4 class = "brand"><a id = "logo">V</a>coder</h4>
+          </nav>
+
+      </footer>
+    
+
+   <script type = "text/javascript" src = "scripts/validar.js"></script>   
+  </body>
+</html>
